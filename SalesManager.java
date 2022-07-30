@@ -39,7 +39,7 @@ public class SalesManager {
     return average / i;
   }
 
-  // вычисление странной хрени - обрезанного среднего...))
+  // вычисление - обрезанного среднего...))
   public int average() {
     int average = 0;
     for (int sale : sales) {
