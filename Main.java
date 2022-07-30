@@ -1,11 +1,12 @@
 public class Main {
 
   public static void main(String[] args) {
-    SalesManager arreySales = new SalesManager(new long[]{1000, 900, 1400, 600, 2100, 850});
+    SalesManager arreySales = new SalesManager(new long[]{10000, 9600, 14100, 690, 21600, 8050});
     System.out.println("Наибольший чек продаж: " + arreySales.max() + " руб.");
-
+    System.out.println("Наименьший чек продаж: " + arreySales.min() + " руб.");
     System.out.println("Средний чек всех продаж: " + arreySales.averageSales() + " руб.");
-    System.out.println("Всего продаж: " + arreySales.i);
+    System.out.println("Количество продаж: " + arreySales.i + "\nВсего продаж на сумму: " +
+        arreySales.averageSales() * arreySales.i + " руб.");
 
   }
 

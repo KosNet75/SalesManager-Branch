@@ -36,7 +36,7 @@ public class SalesManager {
       average += sale;
       i = i + 1;
     }
-    return (average / i);
+    return average/i;
   }
 
 
