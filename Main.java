@@ -1,7 +1,7 @@
 public class Main {
 
   public static void main(String[] args) {
-    SalesManager arreySales = new SalesManager(new long[]{10000, 9600, 14100, 690, 21600, 8050});
+    SalesManager arreySales = new SalesManager(new int[]{10000, 9600, 14100, 690, 21600, 8050});
     System.out.println("Наибольший чек продаж: " + arreySales.max() + " руб.");
     System.out.println("Наименьший чек продаж: " + arreySales.min() + " руб.");
     System.out.println("Средний чек всех продаж: " + arreySales.averageSales() + " руб.");
