@@ -30,6 +30,7 @@ public class SalesManager {
     return min;
   }
 
+  // вычисление странной хрени
   public long averageSales() {
     int average = 0;
     for (long sale : sales) {
