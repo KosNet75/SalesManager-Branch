@@ -1,6 +1,7 @@
 
 public class SalesManager {
-  int i=0;
+
+  int i = 0;
   protected long[] sales;
 
   public SalesManager(long[] sales) {
@@ -33,12 +34,10 @@ public class SalesManager {
     int average = 0;
     for (long sale : sales) {
       average += sale;
-       i=i+1;
+      i = i + 1;
     }
-    return (average/i);
+    return (average / i);
   }
-
-
 
 
 }
