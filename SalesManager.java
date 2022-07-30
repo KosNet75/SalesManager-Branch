@@ -30,7 +30,11 @@ public class SalesManager {
     return min;
   }
 
+
+
+
   public int averageSales() {
+
     int average = 0;
     for (int sale : sales) {
       average += sale;
