@@ -36,8 +36,16 @@ public class SalesManager {
       average += sale;
       i = i + 1;
     }
-    return average/i;
+    return average / i;
   }
 
+  // вычисление странной хрени - обрезанного среднего...))
+  public int average() {
+    int average = 0;
+    for (int sale : sales) {
+      average += sale;
+    }
+    return average - max() - min();
+  }
 
 }

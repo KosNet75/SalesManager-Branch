@@ -7,6 +7,7 @@ public class Main {
     System.out.println("Средний чек всех продаж: " + arreySales.averageSales() + " руб.");
     System.out.println("Количество продаж: " + arreySales.i + "\nВсего продаж на сумму: " +
         arreySales.averageSales() * arreySales.i + " руб.");
+    System.out.println("расчёт обрезанного среднего : " + arreySales.average() + " руб.");
 
   }
 
